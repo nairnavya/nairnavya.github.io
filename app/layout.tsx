@@ -27,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-       */}
+      <head>
+        <title>Navya Nair</title>
+        <link rel="icon" href="/favicon-32x32.png" />
+      </head>
        <body className={inter.className}>
         {children}
       </body>
