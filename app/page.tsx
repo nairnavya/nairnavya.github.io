@@ -3,9 +3,17 @@ export default function Home() {
     <main className="max-w-4xl mx-auto px-6 py-24 space-y-24">
       {/* Hero */}
       <header className="space-y-6">
-        <h1 className="text-5xl font-semibold tracking-tight">
-          Navya Nair
-        </h1>
+        <div className="flex items-center gap-6">
+          <img
+            src="/Users/navyanair/Documents/Projects/personal-site.jpg" 
+            alt="Navya Nair"
+            className="w-20 h-20 rounded-full object-cover border border-neutral-200 shrink-0"
+          />
+          <h1 className="text-5xl font-semibold tracking-tight">
+            Navya Nair
+          </h1>
+        </div>
+        
         <p className="text-lg text-neutral-600 max-w-prose leading-relaxed">
           Physics and neural engineering student at UIUC focused on health technology.
         </p>
