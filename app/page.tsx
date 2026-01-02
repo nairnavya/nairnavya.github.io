@@ -5,7 +5,7 @@ export default function Home() {
       <header className="space-y-6">
         <div className="flex items-center gap-6">
           <img
-            src="/Users/navyanair/Documents/Projects/personal-site.jpg" 
+            src="/Users/navyanair/Documents/Projects/personal-site/Attachment.jpg" 
             alt="Navya Nair"
             className="w-20 h-20 rounded-full object-cover border border-neutral-200 shrink-0"
           />
