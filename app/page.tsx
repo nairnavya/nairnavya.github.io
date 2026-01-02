@@ -7,11 +7,17 @@ export default function Home() {
           Navya Nair
         </h1>
         <p className="text-lg text-neutral-600 max-w-prose leading-relaxed">
-          Physics and neural engineering student interested in how brain activity
-          can be recorded, modeled, and interpreted using data-driven methods.
+          Physics and neural engineering student at UIUC focused on health technology.
         </p>
 
         <div className="flex gap-6 pt-2 text-sm font-medium">
+          <a
+            href="https://www.linkedin.com/in/navya-nair-/"
+            target="_blank"
+            className="hover:underline"
+          >
+            Linkedin →
+          </a>
           <a
             href="https://github.com/nairnavya"
             target="_blank"
@@ -20,10 +26,11 @@ export default function Home() {
             GitHub →
           </a>
           <a
-            href="/Navya_Nair_Resume.pdf"
+            href="mailto:nairnavya@gmail.com"
+            target="_blank"
             className="hover:underline"
           >
-            Resume →
+            Email →
           </a>
         </div>
       </header>
