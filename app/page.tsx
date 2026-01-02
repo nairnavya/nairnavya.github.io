@@ -5,7 +5,7 @@ export default function Home() {
       <header className="flex gap-8 items-start">
         {/* Profile Picture */}
         <img
-          src="/path-to-your-photo.jpg" 
+          src="/profile.jpg" 
           alt="Navya Nair"
           className="w-32 h-32 rounded-full object-cover border border-neutral-200 shrink-0"
         />
