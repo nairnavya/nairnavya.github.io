@@ -2,44 +2,35 @@ export default function Home() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-24 space-y-24">
       {/* Hero */}
-      <header className="space-y-6">
-        <div className="flex items-center gap-6">
-          <img
-            src="/Users/navyanair/Documents/Projects/personal-site/Attachment.jpg" 
-            alt="Navya Nair"
-            className="w-20 h-20 rounded-full object-cover border border-neutral-200 shrink-0"
-          />
+      <header className="flex gap-8 items-start">
+        {/* Profile Picture */}
+        <img
+          src="/path-to-your-photo.jpg" 
+          alt="Navya Nair"
+          className="w-32 h-32 rounded-full object-cover border border-neutral-200 shrink-0"
+        />
+
+        {/* Text Content Column */}
+        <div className="space-y-6">
           <h1 className="text-5xl font-semibold tracking-tight">
             Navya Nair
           </h1>
-        </div>
-        
-        <p className="text-lg text-neutral-600 max-w-prose leading-relaxed">
-          Physics and neural engineering student at UIUC focused on health technology.
-        </p>
+          
+          <p className="text-lg text-neutral-600 max-w-prose leading-relaxed">
+            Physics and neural engineering student at UIUC focused on health technology.
+          </p>
 
-        <div className="flex gap-6 pt-2 text-sm font-medium">
-          <a
-            href="https://www.linkedin.com/in/navya-nair-/"
-            target="_blank"
-            className="hover:underline"
-          >
-            Linkedin →
-          </a>
-          <a
-            href="https://github.com/nairnavya"
-            target="_blank"
-            className="hover:underline"
-          >
-            GitHub →
-          </a>
-          <a
-            href="mailto:nairnavya@gmail.com"
-            target="_blank"
-            className="hover:underline"
-          >
-            Email →
-          </a>
+          <div className="flex gap-6 pt-2 text-sm font-medium">
+            <a href="https://www.linkedin.com/in/navya-nair-/" target="_blank" className="hover:underline">
+              Linkedin →
+            </a>
+            <a href="https://github.com/nairnavya" target="_blank" className="hover:underline">
+              GitHub →
+            </a>
+            <a href="mailto:nairnavya@gmail.com" target="_blank" className="hover:underline">
+              Email →
+            </a>
+          </div>
         </div>
       </header>
 
