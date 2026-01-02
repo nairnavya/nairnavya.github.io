@@ -14,9 +14,11 @@ export default function Home() {
         <h2 className="text-xl font-medium">About</h2>
         <p className="mt-3 text-neutral-700 max-w-prose">
           I study physics and am working toward a second degree in neural engineering, with a minor in computer science. 
-          I’m drawn to problems where math, biology, and computation overlap—especially questions about how brain activity can be recorded, modeled, 
-          interpreted, and visualized. Right now, I’m building technical depth through coursework while experimenting with data analysis, 
-          algorithms, and neuroscience-inspired projects, using them as a way to understand both the tools and the systems they’re applied to.
+          I’m drawn to problems where math, biology, and computation overlap - especially questions about how brain activity can be recorded, modeled, 
+          interpreted, and visualized. 
+          
+          Right now, I’m building technical depth through coursework while experimenting with data analysis, 
+          algorithms, and neuroscience-related projects, using them as a way to understand both the tools and the systems they’re applied to.
         </p>
       </section>
 
