@@ -16,7 +16,8 @@ export default function Home() {
           I study physics and am working toward a second degree in neural engineering, with a minor in computer science. 
           I’m drawn to problems where math, biology, and computation overlap - especially questions about how brain activity can be recorded, modeled, 
           interpreted, and visualized. 
-          
+        </p>
+        <p>
           Right now, I’m building technical depth through coursework while experimenting with data analysis, 
           algorithms, and neuroscience-related projects, using them as a way to understand both the tools and the systems they’re applied to.
         </p>
