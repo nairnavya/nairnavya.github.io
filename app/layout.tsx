@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Navya Nair</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </head>
        <body className={inter.className}>
         {children}
